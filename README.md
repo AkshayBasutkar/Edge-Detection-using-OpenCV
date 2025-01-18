@@ -1,7 +1,3 @@
-# Edge-Detection-using-OpenCV
-This Python code applies **Canny** and **Marr-Hildreth** edge detection to an image, then displays the original and processed images using **Matplotlib** for comparison. It uses **OpenCV** for image processing and **NumPy** for numerical operations.
-
-
 # Edge Detection using Canny and Marr-Hildreth
 
 This repository contains a Python script that performs edge detection on an input image using two different techniques: **Canny Edge Detection** and **Marr-Hildreth Edge Detection**. The results of both methods are visualized alongside the original image for easy comparison.
@@ -69,25 +65,3 @@ pip install opencv-python numpy matplotlib
      - The edge detection results (Canny and Marr-Hildreth).
      - The original image with the detected edges overlaid.
 
-## Example Output
-
-The output will look like this:
-
-```
-| Original Image | Canny Edge Detection | Canny Output Image |
-|----------------|----------------------|--------------------|
-| Marr-Hildreth Edge Detection | Marr-Hildreth Output Image |                |
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- This project uses **OpenCV** for image processing and **Matplotlib** for visualization.
-- Special thanks to the creators of the Canny and Marr-Hildreth edge detection algorithms.
-
----
-
-Feel free to modify or extend this code for your own edge detection tasks!
